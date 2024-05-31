@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "callable-sites-thing"
+version = "0.1.0"
+description = ""
+authors = ["Cade Mirchandani <cmirchan@ucsc.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+polars = "^0.20.30"
+pysam = "^0.22.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
